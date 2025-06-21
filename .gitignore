@@ -1,5 +1,6 @@
 .env
 env
 venv/
+U_agentic_ai
 langgraph.json
 3-Debugging/__pycache__/
