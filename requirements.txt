@@ -9,3 +9,5 @@ arxiv
 wikipedia
 langgraph-cli[inmem]
 faiss-cpu
+youtube-transcript-api 
+tiktoken
