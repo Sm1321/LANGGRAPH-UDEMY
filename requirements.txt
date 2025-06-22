@@ -1,7 +1,7 @@
 langchain
 langgraph
 langchain-core
-langchain-community
+langchain_community
 python-dotenv
 langchain-openai
 langchain-groq
