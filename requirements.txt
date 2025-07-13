@@ -11,3 +11,5 @@ langgraph-cli[inmem]
 faiss-cpu
 youtube-transcript-api 
 tiktoken
+langchain_huggingface
+unstructured[pdf]
