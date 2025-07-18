@@ -13,3 +13,5 @@ youtube-transcript-api
 tiktoken
 langchain_huggingface
 unstructured[pdf]
+duckduckgo-search
+langchain-experimental
