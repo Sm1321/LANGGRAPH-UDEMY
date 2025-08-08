@@ -31,14 +31,6 @@ graph.add_edge("chat_node", END)
 
 chatbot = graph.compile(checkpointer = checkpointer)
 
-for message_chunk,metadate in  chatbot.stream(
-    {'messages':[HumanMessage(content = 'What is th recipe to make pasta')]},
-    config = {'configurable':{'thread_id':'thread-1'}},
-    stream_mode = 'messages'
-):
-
-    if message_chunk.content:
-        print(message_chunk.content,end = " ",flush = True)
 
 
 
